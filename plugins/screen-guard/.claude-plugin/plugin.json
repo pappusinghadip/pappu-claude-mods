@@ -1,0 +1,7 @@
+{
+  "name": "screen-guard",
+  "version": "1.0.0",
+  "description": "/rec before you record or share your screen: masks emails, keys, tokens, money and phone numbers on screen in every open chat and keeps secret files closed",
+  "author": { "name": "pappusinghadip" },
+  "license": "MIT"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "goal-tracker",
+  "version": "1.0.0",
+  "description": "A live progress bar for /goal above the prompt: one segment per task (hover for details), elapsed time, an ETA, and a row for each subagent at work",
+  "author": { "name": "pappusinghadip" },
+  "license": "MIT"
+}

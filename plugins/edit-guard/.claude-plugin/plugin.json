@@ -1,0 +1,7 @@
+{
+  "name": "edit-guard",
+  "version": "1.0.0",
+  "description": "Asks before Claude edits a file that another open chat changed recently: go ahead, move to a worktree, or skip (/editguard)",
+  "author": { "name": "pappusinghadip" },
+  "license": "MIT"
+}
