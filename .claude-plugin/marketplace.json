@@ -1,11 +1,34 @@
 {
   "name": "pappu-mods",
-  "description": "Claude Code mods by pappusinghadip: cache and context meter, screen guard for recordings, a /goal progress bar, and an edit guard for parallel chats",
-  "owner": { "name": "pappusinghadip" },
+  "description": "Claude Code mods by pappusinghadip: cache and context meter, screen guard for recordings, a /goal progress bar, an edit guard for parallel chats, and an agent room where sessions work together",
+  "owner": {
+    "name": "pappusinghadip"
+  },
   "plugins": [
-    { "name": "cache-meter", "source": "./plugins/cache-meter", "description": "Cache and context bars above the prompt, keep-warm and one-click handoff" },
-    { "name": "screen-guard", "source": "./plugins/screen-guard", "description": "/rec masks secrets on screen and keeps secret files closed while you record" },
-    { "name": "goal-tracker", "source": "./plugins/goal-tracker", "description": "A live /goal progress bar with task tooltips, ETA and subagent rows" },
-    { "name": "edit-guard", "source": "./plugins/edit-guard", "description": "Asks before editing a file another open chat changed recently" }
+    {
+      "name": "cache-meter",
+      "source": "./plugins/cache-meter",
+      "description": "Cache and context bars above the prompt, keep-warm and one-click handoff"
+    },
+    {
+      "name": "screen-guard",
+      "source": "./plugins/screen-guard",
+      "description": "/rec masks secrets on screen and keeps secret files closed while you record"
+    },
+    {
+      "name": "goal-tracker",
+      "source": "./plugins/goal-tracker",
+      "description": "A live /goal progress bar with task tooltips, ETA and subagent rows"
+    },
+    {
+      "name": "edit-guard",
+      "source": "./plugins/edit-guard",
+      "description": "Asks before editing a file another open chat changed recently"
+    },
+    {
+      "name": "agent-room",
+      "source": "./plugins/agent-room",
+      "description": "Put 2-3 sessions in one room: live message feed, member cards, message limit, pause and stop-all"
+    }
   ]
 }

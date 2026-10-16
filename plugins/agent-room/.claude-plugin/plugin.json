@@ -1,0 +1,7 @@
+{
+  "name": "agent-room",
+  "version": "1.0.0",
+  "description": "Put 2-3 Claude Code sessions in one room (planner, coder, reviewer...): a live pane shows every message between them, who is working, a message limit, and pause / stop-all controls",
+  "author": { "name": "pappusinghadip" },
+  "license": "MIT"
+}
